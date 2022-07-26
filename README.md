@@ -17,7 +17,7 @@ ___
 
 ## Project Content
 
-* [Github.com/Young-Chhay/Young-Challenge-2](https://github.com/Young-Chhay/Challenge-3 "Young's Github Page for Challenge-3")
+* [Github.com/Young-Chhay/Young-Challenge-3](https://github.com/Young-Chhay/Challenge-3 "Young's Github Page for Challenge-3")
 
 * [Deployed Webpage - (Challenge-3)](https://young-chhay.github.io/Challenge-3/ "Challenge-3's Webpage")
 

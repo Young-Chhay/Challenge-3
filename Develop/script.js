@@ -28,7 +28,7 @@ function generatePassword() {
     if (hasUpperCase) {
       userSelection = userSelection.concat(upperCaseArray)
     }
-    if (hasNumeric ) {
+    if (hasNumeric) {
       userSelection = userSelection.concat(numbArray)
     }
     if (hasSpecialChar) {
