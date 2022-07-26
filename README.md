@@ -9,7 +9,6 @@ ___
 * Add check to confirm at least one of the Criteria are choosen for password generator to work. 
 * Concatnate multiple arrays that was selected by the window.confirm and make them into a single string of arrays.
 * Create a Loop to generate randomize password by letting PC select from the concatenated arrays (from the user selection) and create password for the lenght of password entered.  
-* 
 * Deployed Page to Github. 
 > I spend most of my time working on assigning arrays and setting up function and testing what it does. Making sure user selection are captured and utilize was difficult. Since putting the function together and make sure all of the criteria are met was the goal, defining the rules takes alot of trial and error. However upon gathering multiple resource from internet, I was able to find way to make it work as intended.  
 ---
