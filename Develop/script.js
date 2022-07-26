@@ -1,7 +1,7 @@
-// Assignment Code
+// Assignment Code and set Arrays 
 var generateBtn = document.querySelector("#generate");
 var lowerCaseArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-var upperCaseArray = ["A", "B"]
+var upperCaseArray = ["A", "B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
 var specialCharArray = ["`", "~", "!", "@", "#", "$", "%", "&", "(", ")",]
 var numbArray = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 
@@ -47,26 +47,10 @@ function generatePassword() {
       // If the user doesn't select at lest one Char Type, then alert them
       window.alert("!!!! Must choose at least one Character Type !!!!")
     }
-
   } else { 
     // If the password length input from the user is not valid, show them the alert 
     window.alert(" Error!! Length must be between 8 to 128 only !");
-
   } 
-
-  //1. Promppt the user for the passord criteria.
-  // window.prompt("Please specify password length between Min 8 max 128 ",)
-  // Math.floor(Math.random() * passwordChar.length)
-
-  // console.log(Math.floor(Math.random() * passwordChar.length))
-
-  /// a. Password Length
-
-  /// b. lowercase, uppercase, numbers, special charaters.
-  //2. Validate the input.
-  //3. Generate password based on Criteria
-
-
 
  // Return the generated password string
   return generatedPassword;
@@ -80,10 +64,7 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
   // Assign the password string to the textArea
   passwordText.value = password;
-
 }
-
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
